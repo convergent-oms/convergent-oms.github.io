@@ -1,0 +1,176 @@
+/* Adapted from the Nerfies project page (github.com/nerfies/nerfies.github.io) */
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .icon-link {
+  font-size: 25px;
+  color: #000;
+}
+
+.link-block a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.publication-links {
+  margin-top: 1.2rem;
+}
+
+.publication-links .link-block {
+  display: inline-block;
+  margin: 0 0.35rem;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 10px !important;
+}
+
+.publication-video iframe,
+.publication-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.publication-authors a {
+  color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /* color: #4286f4; */
+}
+
+.publication-video {
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000;
+}
+
+.eql-cntrb {
+  font-size: smaller;
+}
+
+/* --- Custom additions for the OMS project page --- */
+
+.abstract-figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.method-figure img,
+.prediction-figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+/* Toggle groups (method overview + manifolds) */
+.toggle-tabs {
+  margin-bottom: 1.5rem;
+}
+
+.toggle-panel {
+  display: none;
+  text-align: center;
+}
+
+.toggle-panel.is-active {
+  display: block;
+}
+
+.toggle-panel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.toggle-panel .caption {
+  margin-top: 0.75rem;
+  color: #555;
+  font-style: italic;
+}

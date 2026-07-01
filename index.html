@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Convergent distributed object motion detection along mouse visual hierarchy.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Convergent distributed object motion detection along mouse visual hierarchy</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<!-- ===================== HERO / TITLE ===================== -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Convergent distributed object motion detection along mouse visual hierarchy</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="#">Javier C. Weddington</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">David D. Au</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Joshua B. Melander</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Youssef Faragalla</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="#">Zaki Alaoui</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="#">Stephen A. Baccus</a><sup>2</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Stanford Neuroscience Interdepartmental Program, Stanford CA, 94305</span><br>
+            <span class="author-block"><sup>2</sup>Department of Neurobiology, Stanford CA, 94305</span>
+          </div>
+
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5rem;">
+            <span class="author-block"><em>In Review</em></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- Paper -->
+              <span class="link-block">
+                <a href="https://docs.google.com/document/d/12bM7Np0BT1Z-k3QbzHgVQ3MwL0PXSyM5TkHFymRH6Wo/edit?usp=sharing"
+                   target="_blank" rel="noopener noreferrer"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code -->
+              <span class="link-block">
+                <a href="coming-soon.html"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABSTRACT ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Abstract</h2>
+
+        <!-- Abstract image -->
+        <div class="abstract-figure">
+          <img src="static/images/abstract_figure.png"
+               alt="Object trajectory to retina/LGN to primary visual cortex: when objects move vs. where objects move to.">
+        </div>
+
+        <!-- Abstract text beneath the image -->
+        <div class="content has-text-justified" style="margin-top: 1.5rem;">
+          <p>
+            To survive, animals must detect object motion to discriminate what lies in their field of
+            vision. While object motion sensitivity in the retina detects the time and location of external
+            motion, it does not give us an explanation of where that object is heading. Since the efficient
+            encoding and untangling frameworks have been offered, we have understood that downstream
+            regions inherit and transform upstream outputs for their higher order objectives. If retinal motion
+            detection is passed down to higher visual areas, does the primary visual cortex inherit and
+            transform object motion detection from the retina? Here, we investigate whether the mouse
+            primary visual cortex has object motion sensitive (OMS) properties using naturalistic virtual
+            reality, modern computer vision methods, and single-cell recordings of the retina and cortex.
+            Comparing neural responses to differential motion and global motion, we find that the retinal
+            OMS cells detect &ldquo;when&rdquo; an object moves and the cortex detects &ldquo;where&rdquo; the object moves to.
+            Our model manifold analysis of the retinal and cortical networks reveals drastically different
+            topologies in these visual regions suggesting that the mouse brain has convergent and
+            distributed motion detection computations along the visual hierarchy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TECHNICAL SUMMARY VIDEO ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Technical Summary</h2>
+        <div class="publication-video">
+          <video controls playsinline preload="metadata">
+            <source src="static/videos/technical_summary.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== METHOD OVERVIEW ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Method Overview</h2>
+
+        <div class="toggle-group">
+          <!-- Toggle tabs -->
+          <div class="tabs is-centered is-toggle is-medium toggle-tabs">
+            <ul>
+              <li class="toggle-tab is-active" data-key="cortical"><a>Cortical</a></li>
+              <li class="toggle-tab" data-key="retinal"><a>Retinal</a></li>
+            </ul>
+          </div>
+
+          <div class="toggle-panel is-active" data-key="cortical">
+            <img src="static/images/CorticalExperiment.png"
+                 alt="Cortical experiment: in-vivo eye tracking, V1 population recording, and a gaze-shifted convolutional model predicting firing rates.">
+            <p class="caption">In-vivo cortical experiment &mdash; V1 population recording</p>
+          </div>
+          <div class="toggle-panel" data-key="retinal">
+            <img src="static/images/RetinalExperiment.png"
+                 alt="Retinal experiment: video display via mirror onto retina on a multi-electrode array, with a gaze-shifted convolutional model predicting firing rates.">
+            <p class="caption">Retinal experiment &mdash; retina-on-array MEA recording</p>
+          </div>
+        </div>
+
+        <div class="content has-text-justified" style="margin-top: 1.25rem;">
+          <p>
+            We record neural responses to naturalistic virtual reality with gaze shifted from in-vivo eye
+            tracking, capturing V1 population activity in-vivo and retinal responses on a multi-electrode
+            array. Convolutional neural network models of the retina and cortex are trained to predict
+            single-cell firing rates from the same gaze-shifted stimulus, providing a shared computational
+            substrate for comparing the two regions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== OMS PREDICTION ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Predicting Object Motion Sensitivity</h2>
+        <div class="prediction-figure">
+          <img src="static/images/OMSModelPrediction.png"
+               alt="Object motion sensitivity: differential vs. global motion stimuli, and jitter/drift OMS indices for retinal CNN, cortical CNN, and raw recordings.">
+        </div>
+        <div class="content has-text-justified" style="margin-top: 1.25rem;">
+          <p>
+            Differential motion (DM) moves the center and surround independently, while global motion (GM)
+            moves them together. Comparing jitter and drift OMS indices across the retinal CNN, the cortical
+            CNN, and the raw recordings, we find that retinal OMS cells are jitter-preferring&mdash;detecting
+            <em>when</em> an object moves&mdash;while cortical cells shift toward drift-preferring responses that
+            encode <em>where</em> the object moves to.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MODEL MANIFOLDS (TOGGLE) ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Retinal and Cortical Model Manifolds</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our model manifold analysis reveals drastically different topologies in the retinal and cortical
+            networks. Toggle between stimulus probes below to compare how each region organizes its
+            responses.
+          </p>
+        </div>
+
+        <div class="toggle-group">
+          <!-- Toggle tabs -->
+          <div class="tabs is-centered is-toggle is-medium toggle-tabs">
+            <ul>
+              <li class="toggle-tab is-active" data-key="oms"><a>OMS</a></li>
+              <li class="toggle-tab" data-key="wnns"><a>WN/NS</a></li>
+            </ul>
+          </div>
+
+          <!-- OMS: retinal on its own row, cortical on its own row (max width) -->
+          <div class="toggle-panel is-active" data-key="oms">
+            <div class="columns is-centered">
+              <div class="column is-full">
+                <h3 class="title is-5">Retinal model</h3>
+                <img src="static/images/manifold_oms_retinal.gif"
+                     alt="Retinal NS1 OMS encoding manifold (jitter OMS), rotating 3D diffusion map.">
+                <p class="caption">Retinal model &mdash; OMS probe (jitter OMS)</p>
+              </div>
+            </div>
+            <div class="columns is-centered">
+              <div class="column is-full">
+                <h3 class="title is-5">Cortical model</h3>
+                <img src="static/images/manifold_oms_cortical.gif"
+                     alt="Cortical V1 (goldroger) OMS encoding manifold (drift OMS), rotating 3D diffusion map.">
+                <p class="caption">Cortical model &mdash; OMS probe (drift OMS)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- WN/NS: retinal + cortical side by side -->
+          <div class="toggle-panel" data-key="wnns">
+            <div class="columns is-centered">
+              <div class="column">
+                <h3 class="title is-5">Retinal model</h3>
+                <img src="static/images/manifold_retinal_ns1.gif"
+                     alt="Retinal model stimulus manifold under WN/NS probe.">
+                <p class="caption">Retinal model &mdash; WN/NS probe</p>
+              </div>
+              <div class="column">
+                <h3 class="title is-5">Cortical model</h3>
+                <img src="static/images/manifold_cortical_ns1.gif"
+                     alt="Cortical model stimulus manifold under WN/NS probe.">
+                <p class="caption">Cortical model &mdash; WN/NS probe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RAW DATA NEURAL MANIFOLD (V1) ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Raw Data Neural Manifold (V1)</h2>
+        <div class="content has-text-justified">
+          <p>
+            Neural manifolds computed directly from the raw V1 population recordings. Toggle between
+            neural stimulus conditions below to fly through each manifold.
+          </p>
+        </div>
+
+        <div class="toggle-group">
+          <!-- Toggle tabs -->
+          <div class="tabs is-centered is-toggle is-medium toggle-tabs">
+            <ul>
+              <li class="toggle-tab is-active" data-key="wn"><a>WN</a></li>
+              <li class="toggle-tab" data-key="ns1"><a>NS1</a></li>
+              <li class="toggle-tab" data-key="ns2"><a>NS2</a></li>
+            </ul>
+          </div>
+
+          <div class="toggle-panel is-active" data-key="wn">
+            <img src="static/images/raw_manifold_v1_wn.gif"
+                 alt="Raw V1 neural manifold flythrough under white-noise (WN) stimulus.">
+            <p class="caption">V1 raw-data neural manifold &mdash; WN probe</p>
+          </div>
+          <div class="toggle-panel" data-key="ns1">
+            <img src="static/images/raw_manifold_v1_ns1.gif"
+                 alt="Raw V1 neural manifold flythrough under naturalistic scene 1 (NS1) stimulus.">
+            <p class="caption">V1 raw-data neural manifold &mdash; NS1 probe</p>
+          </div>
+          <div class="toggle-panel" data-key="ns2">
+            <img src="static/images/raw_manifold_v1_ns2.gif"
+                 alt="Raw V1 neural manifold flythrough under naturalistic scene 2 (NS2) stimulus.">
+            <p class="caption">V1 raw-data neural manifold &mdash; NS2 probe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CITATION ===================== -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{weddington2026oms,
+  author  = {Weddington, Javier C. and Au, David D. and Melander, Joshua B. and Faragalla, Youssef and Alaoui, Zaki and Baccus, Stephen A.},
+  title   = {Convergent distributed object motion detection along mouse visual hierarchy},
+  journal = {In Review},
+  year    = {2026},
+}</code></pre>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            Website template borrowed from
+            <a href="https://nerfies.github.io">NeRFies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
