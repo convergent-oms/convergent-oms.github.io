@@ -19,4 +19,18 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+  // GoatCounter click events: any element with data-gc-event fires a named
+  // event (e.g. the Paper / Code buttons) in addition to the pageview count.
+  document.querySelectorAll('[data-gc-event]').forEach((el) => {
+    el.addEventListener('click', function () {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({
+          path: el.dataset.gcEvent,
+          title: el.dataset.gcEvent,
+          event: true,
+        });
+      }
+    });
+  });
 });
