@@ -312,6 +312,41 @@
             <p class="caption">V1 raw-data neural manifold &mdash; NS2 probe</p>
           </div>
         </div>
+
+        <div class="content has-text-justified" style="margin-top: 1.5rem;">
+          <p>
+            Notably, our end-to-end trained cortical models appear to recover manifold shapes and
+            distributions strikingly similar to those of the raw V1 neural manifold.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== APPLICATION: CAMOUFLAGE DETECTION ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Application: Detecting Camouflaged Objects</h2>
+        <div class="content has-text-justified">
+          <p>
+            Evaluated on the Moving Camouflaged Animals (MoCA) dataset, the retinal and cortical
+            models reveal a division of labor: the retinal model produces focal, spatially invariant
+            activations that flag <em>that</em> a camouflaged animal is moving, while the cortical
+            model produces an extended, orientation-tuned activation spanning the animal's body that
+            resolves <em>where</em> it is and how it is oriented.
+          </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/camo_demo_3panel.gif"
+               alt="Arctic fox from the MoCA dataset: raw video, retinal-model activation (focal), and cortical-model activation (extended, body-spanning).">
+        </figure>
+        <p class="caption">
+          Arctic fox (MoCA). Left: raw video. Center: retinal-model activation &mdash; focal to
+          animal motion. Right: cortical-model activation &mdash; extended across the animal's body.
+        </p>
       </div>
     </div>
   </div>
